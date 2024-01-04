@@ -3,64 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Mi Primera Pagina Web</title>
+    <link rel="stylesheet" href="./styles.css" />
 </head>
 <body>
     <header>
-        <div>
-            <h1>Mi Primera Página Web</h1>
+        <div class="divi">
+            
+            <div id="principal">
+                <h1>Mi Primera Página Web</h1>
+            </div>
+            <div>
+                <h2 id="subtitulo">Bienvenidos!</h2>
+            </div>
         </div>
-        <div>
-            <h2>Bienvenidos!</h2>
-        </div>
-        <div>
+        <div class="divis">
             <input type="text" name="Menu" placeholder="Menú" />
+            <button>Buscar</button>
         </div>
-        <button>Buscar</button>
         
     </header>
-    <hr />
     <main>
         <section>
-            <h3>Progreso en HTML:</h3>
-            <article>
-                <p>
-                    Aprender programación de HTML en Henry ha sido una experiencia muy entretenida y productiva.
-                </p>
-                <p>
-                    El mismo prepcourse de Henry me ha brindado gran variedad de cosas en cuanto a aprendizaje, por ejemplo:
-                </p>
-                               
-            </article>
-            <article>
-                <ol>
-                    <li>claridad;</li>
-                    <li>interactividad;</li>
-                    <li>facilidad para digerir informacion.</li>
-                </ol>
-            </article>
-            <article>
-                <p>De esta forma ha sido fácil aprender e ir viendo cómo se irá formando mi carrera en Henry.</p>
-            </article>
+            <div class="box">
 
-        </section>
-        <hr />
-        <section>
-            <h3>Esta Página Web</h3>
-            <article>
-                <p>Esta página Web solo cubre el aspecto estético y de organización, puesto a que todavía no he aprendido</p>
-                <p>a darles funciones específicas a botones y formularios por ejemplo. Pero de igual forma son bien recibidos</p>
-                <p>y apreciados los comentarios y feedback en el siguiente enlace:</p>
-                <div>
-                    <a href="./formulariofeedback.html">Formulario</a>
-                </div>
-            </article>
+                <h3 class="tresH">Progreso en HTML:</h3>
+                <article>
+                    <p class="texto">
+                        Aprender programación de HTML en Henry ha sido una experiencia muy entretenida y productiva.
+                    </p>
+                    <p class="texto">
+                        El mismo prepcourse de Henry me ha brindado gran variedad de cosas en cuanto a aprendizaje, por ejemplo:
+                    </p>
+                    
+                </article>
+                <article>
+                    <ol class="texto">
+                        <li>claridad;</li>
+                        <li>interactividad;</li>
+                        <li>facilidad para digerir informacion.</li>
+                    </ol>
+                </article>
+                <article>
+                    <p class="texto">De esta forma ha sido fácil aprender e ir viendo cómo se irá formando mi carrera en Henry.</p>
+                </article>
+                
+            </div>
+            <div class="box">
+
+                <h3 class="tresH">Esta Página Web</h3>
+                <article>
+                    <p class="texto">Esta página Web solo cubre el aspecto estético y de organización, puesto a que todavía no he aprendido</p>
+                    <p class="texto">a darles funciones específicas a botones y formularios por ejemplo. Pero de igual forma son bien recibidos</p>
+                    <p class="texto">y apreciados los comentarios y feedback en el siguiente enlace:</p>
+                    <div>
+                        <a href="./formulariofeedback.html" id="link">Formulario</a>
+                    </div>
+                </article>
+            </div>    
         </section>
 
     </main>
-    <hr />
     <footer>
-        <p>Muchas gracias!</p>
+        <p id="gratitud">Muchas gracias!</p>
     </footer>
 </body>
 </html>

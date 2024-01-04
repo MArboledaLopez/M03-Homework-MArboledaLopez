@@ -1,0 +1,51 @@
+body {
+    background-color:  rgba(255, 0, 0, 0.281);
+}
+
+.texto {
+    font-size: 2em;
+    color: rgba(255, 255, 0, 0.671);
+}
+
+#principal{
+    font-size: 3em;    
+    border: 5px solid white;
+    width: 14em;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#gratitud {
+    font-size: 2.5em;
+    color: aquamarine;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.tabla {
+    font-size: 2em;
+    border: 5px solid white;
+    width: 6em;
+    height: 5em;
+    padding: 1em;
+    border-radius: 15px;
+}
+
+#boton {
+    font-size: 2em;
+    color: rgb(148, 255, 127);
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#flextabla {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#flextitulo {
+    display: flex;
+    justify-content: space-evenly;
+}

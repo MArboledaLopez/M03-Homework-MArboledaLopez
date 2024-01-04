@@ -3,20 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Feedback</title>
+    <link rel="stylesheet" href="./styles2.css" />
 </head>
 <body>
     <header>
-        <h1>Formulario de Feedback</h1>
+        <div id="flextitulo">
+            <h1 id="principal">Formulario de Feedback</h1>
+        </div>
         <article>
-            <p>Bienvenidos al formulario de comentarios y feedback. Aquí encontrarán todo lo necesario para hacerme</p>
-            <p>llegar sus opiniones. Pero recuerden: todavía no es del todo funcional.</p>
+            <p class="texto">Bienvenidos al formulario de comentarios y feedback. Aquí encontrarán todo lo necesario para hacerme 
+                llegar sus opiniones. Pero recuerden: todavía no es del todo funcional.
+            </p>
         </article>
     </header>
-    <hr />
     <main>
-        <section>
-            <article>
+        <section id="flextabla">
+            <article class="tabla">
                 <div>
                     <input type="text" name="nombre" placeholder="Nombre" />
                 </div>
@@ -31,14 +34,12 @@
                 </div>
             </article>
         </section>
-        <hr />
         <section>
-            <a href="./index.html">Regresar</a>
+            <a href="./index.html" id="boton">Regresar</a>
         </section>
     </main>
-    <hr />
     <footer>
-        <p>Muchas gracias!</p>
+        <p id="gratitud">Muchas gracias!</p>
     </footer>
 </body>
 </html>

@@ -1,3 +1,3 @@
 # M03-Homework-MArboledaLopez
-Repositorio de tarea del Módulo 3 del Prep Course de Henry, primera pagina de HTML.
-En este repositorio remoto encontrarán el archivo "index.html" el cual contiene la primera página web desarrollada con HTML de mi PrepCourse en Henry. Cabe aclarar que dicha página todavía carece de funciones definidas y en general está desarrollada solo con el aspecto estético en mente.
+Repositorio de tarea del Módulo 3 y 4 del Prep Course de Henry, primera pagina de HTML.
+En este repositorio remoto encontrarán el archivo "index.html" el cual contiene la primera página web desarrollada con HTML y CSS de mi PrepCourse en Henry. Cabe aclarar que dicha página todavía carece de funciones definidas y en general está desarrollada solo con el aspecto estético en mente.
